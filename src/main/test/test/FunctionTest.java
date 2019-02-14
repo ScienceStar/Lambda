@@ -4,6 +4,7 @@ import bean.Dog;
 import org.junit.Test;
 import service.Consumer;
 import service.ICaculate;
+import service.ICompare;
 
 import java.io.PrintStream;
 import java.util.Arrays;
@@ -73,6 +74,10 @@ public class FunctionTest {
     public void testFunction4(){
         ICaculate caculate = ICaculate::getResult3;
         caculate.getResult(3,4,14,3);
+        System.out.println("--------------------------");
+        ICompare compare = ICompare::startsWith;
+        boolean flag = compare.test("http://");
+        System.out.println(flag );
     }
 
     @Test
