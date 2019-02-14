@@ -24,7 +24,6 @@ public class FunctionTest {
             int result = a+b+c+d;
             return result;
         };
-        
 
         int num = caculate.getResult(3,4,5,3);
         System.out.println(num);
