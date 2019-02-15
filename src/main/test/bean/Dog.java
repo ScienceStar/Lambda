@@ -17,6 +17,7 @@ public class Dog {
     }
 
     public Integer getWeight() {
+        System.out.println(21+"kg");
         return weight;
     }
 

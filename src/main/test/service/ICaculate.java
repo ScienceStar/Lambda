@@ -11,6 +11,11 @@ package service;
 public interface ICaculate {
     public int getResult(int a,int b,int c,int d);
 
+    public static int getResult1(int a,int b,int c,int d){
+        int result = a+b+c+d;
+        return result;
+    }
+
     public static int getResult2(int a,int b,int c,int d){
         int result = a+b+2*c+d;
         System.out.println(result );

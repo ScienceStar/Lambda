@@ -2,9 +2,7 @@ package test;
 
 import bean.Dog;
 import org.junit.Test;
-import service.Consumer;
-import service.ICaculate;
-import service.ICompare;
+import service.*;
 
 import java.io.PrintStream;
 import java.util.Arrays;
@@ -21,10 +19,7 @@ public class FunctionTest {
 
     @Test
     public void testLambda(){
-        ICaculate caculate = (a, b, c,d) -> {
-            int result = a+b+c+d;
-            return result;
-        };
+        ICaculate caculate = ICaculate::getResult1;
 
         int num = caculate.getResult(3,4,5,3);
         System.out.println(num);
@@ -63,7 +58,7 @@ public class FunctionTest {
         //4  上面是一个简单的例子，下面我们换个写法
         System.out.println("--------------------------------");
         //5  ps为PrintStream对象，println为实例方法
-        Consumer<String> con2 = ps::println;
+        Consumer<String> con2 = ps::print;
         //6  调用方法
         con2.accecpt("Hello Java8！");
         //7  所以也可换成这种写法
@@ -76,13 +71,21 @@ public class FunctionTest {
         caculate.getResult(3,4,14,3);
         System.out.println("--------------------------");
         ICompare compare = ICompare::startsWith;
-        boolean flag = compare.test("http://");
+        boolean flag = compare.test("http:");
         System.out.println(flag );
     }
 
     @Test
     public void testFunction5(){
-        Thread t = new Thread(Dog::crary);
-        t.run();
+        Supplier<Dog> dogSupplier = Dog::new;
+        Dog d = dogSupplier.getEntity();
+        d.getWeight();
+    }
+
+    @Test
+    public void testFunction6(){
+        IMatch match = String::equals;
+        boolean flag = match.match("hello","world");
+        System.out.println(flag);
     }
 }
