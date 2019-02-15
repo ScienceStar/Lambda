@@ -98,8 +98,8 @@ public class FunctionTest {
     public void testFunction7() {
         Dog dog = new Dog( );
         Supplier<Integer> supplier = () -> dog.getWeight( );
-        int weight = supplier.getEntity( );
-        System.out.println("---------------------------" + weight);
+        Supplier<Integer> supplier2 = supplier::getEntity;
+        System.out.println("--------------111-------------" + supplier2.getEntity());
         supplier = dog::getWeight;
         supplier.getEntity( );
         System.out.println("---------------------------");
@@ -112,7 +112,7 @@ public class FunctionTest {
     public void testFunction8() {
         IStream<Integer,String[]> stream = String[]::new;
         String[] strings = stream.getStrings(5);
-        strings[0] = "hello";
+        strings[0] = "hello1";
         strings[1] = "hello2";
         strings[2] = "hello3";
         strings[3] = "hello4";
