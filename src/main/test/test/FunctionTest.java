@@ -17,24 +17,26 @@ import java.util.List;
  */
 public class FunctionTest {
 
+    PrintStream ps = System.out;
+
     @Test
-    public void testLambda(){
+    public void testLambda() {
         ICaculate caculate = ICaculate::getResult1;
 
-        int num = caculate.getResult(3,4,5,3);
+        int num = caculate.getResult(3, 4, 5, 3);
         System.out.println(num);
     }
 
     @Test
-    public void testList(){
+    public void testList() {
         String[] atp = {"Rafael Nadal", "Novak Djokovic",
                 "Stanislas Wawrinka",
-                "David Ferrer","Roger Federer",
-                "Andy Murray","Tomas Berdych",
+                "David Ferrer", "Roger Federer",
+                "Andy Murray", "Tomas Berdych",
                 "Juan Martin Del Potro"};
-        List<String> players =  Arrays.asList(atp);
+        List<String> players = Arrays.asList(atp);
 
-        players.forEach((player)->{
+        players.forEach((player) -> {
             System.out.println(player);
         });
 
@@ -43,15 +45,14 @@ public class FunctionTest {
     }
 
     @Test
-    public void testFunction2(){
-        Arrays.asList("aa","bb","cc").forEach(ICaculate::print);
+    public void testFunction2() {
+        Arrays.asList("aa", "bb", "cc").forEach(ICaculate::print);
     }
 
     @Test
-    public void testFunction3(){
+    public void testFunction3() {
         //1  为了更好理解，将ps声明出来
-        PrintStream ps = System.out;
-         //2  传入的参数用来打印到控制台
+        //2  传入的参数用来打印到控制台
         Consumer<String> con = (str) -> ps.print(str);
         //3  调用方法
         con.accecpt("Hello World\n");
@@ -66,55 +67,60 @@ public class FunctionTest {
     }
 
     @Test
-    public void testFunction4(){
+    public void testFunction4() {
         ICaculate caculate = ICaculate::getResult3;
-        caculate.getResult(3,4,14,3);
+        caculate.getResult(3, 4, 14, 3);
         System.out.println("--------------------------");
         ICompare compare = ICompare::startsWith;
         boolean flag = compare.test("http:");
-        System.out.println(flag );
-    }
-
-    @Test
-    public void testFunction5(){
-        Supplier<Dog> dogSupplier = Dog::new;
-        Dog d = dogSupplier.getEntity();
-        d.getWeight();
-    }
-
-    @Test
-    public void testFunction6(){
-        IMatch match = String::equals;
-        boolean flag = match.match("hello","world");
         System.out.println(flag);
     }
 
     @Test
-    public void testFunction7(){
-        Dog dog = new Dog();
-        Supplier<Integer> supplier = ()->dog.getWeight();
-        int weight = supplier.getEntity();
-        System.out.println("---------------------------"+weight);
-        supplier = dog::getWeight;
-        supplier.getEntity();
-        System.out.println("---------------------------");
-        supplier = Dog::getAge;
-        int age = supplier.getEntity();
-        System.out.println(age );
+    public void testFunction5() {
+        Supplier<Dog> dogSupplier = Dog::new;
+        Dog d = dogSupplier.getEntity( );
+        d.getWeight( );
+        System.out.println("---------------------------------");
+        Supplier<Integer> dog = Dog::getAge;
+        int age = dog.getEntity( );
+        System.out.println(age);
     }
 
     @Test
-    public void testFunction8(){
-       IFunction<Integer,String[]> function = String[]::new;
-       String[] strings = function.getStrings(5);
-       strings[0] = "hello";
-       strings[1] = "hello2";
-       strings[2] = "hello3";
-       strings[3] = "hello4";
-       strings[4] = "hello5";
+    public void testFunction6() {
+        IMatch match = String::equals;
+        boolean flag = match.match("hello", "world");
+        System.out.println(flag);
+    }
 
-       for (String s : strings){
-           System.out.println(s);
-       }
+    @Test
+    public void testFunction7() {
+        Dog dog = new Dog( );
+        Supplier<Integer> supplier = () -> dog.getWeight( );
+        int weight = supplier.getEntity( );
+        System.out.println("---------------------------" + weight);
+        supplier = dog::getWeight;
+        supplier.getEntity( );
+        System.out.println("---------------------------");
+        supplier = Dog::getHeight;
+        Integer height = supplier.getEntity( );
+        System.out.println("Height->" + height);
+    }
+
+    @Test
+    public void testFunction8() {
+        IStream<Integer,String[]> stream = String[]::new;
+        String[] strings = stream.getStrings(5);
+        strings[0] = "hello";
+        strings[1] = "hello2";
+        strings[2] = "hello3";
+        strings[3] = "hello4";
+        strings[4] = "hello5";
+
+        IFunction<String, String> iFunction = ps::println;
+        for (String s : strings) {
+            iFunction.getStrings(s);
+        }
     }
 }

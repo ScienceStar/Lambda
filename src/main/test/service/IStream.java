@@ -8,8 +8,8 @@ package service;
  * @date 2019/2/15 11:09
  */
 @FunctionalInterface
-public interface IFunction<T,K> {
-    public void getStrings(T t);
+public interface IStream<T,K> {
+    public K getStrings(T t);
     public static void printStrem(String str){
         System.out.println(str);
     };

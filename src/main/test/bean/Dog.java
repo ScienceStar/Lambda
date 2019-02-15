@@ -30,7 +30,9 @@ public class Dog {
         this.weight = weight;
     }
 
-    public Integer getHeight() {
+    public static Integer getHeight() {
+        Integer height = 32;
+        System.out.println("Height:"+height);
         return height;
     }
 
