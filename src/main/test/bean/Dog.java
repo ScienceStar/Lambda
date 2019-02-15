@@ -18,7 +18,12 @@ public class Dog {
 
     public Integer getWeight() {
         System.out.println(21+"kg");
+        weight = 30;
         return weight;
+    }
+
+    public static int getAge(){
+        return 21;
     }
 
     public void setWeight(Integer weight) {

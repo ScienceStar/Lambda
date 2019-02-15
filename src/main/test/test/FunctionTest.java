@@ -88,4 +88,33 @@ public class FunctionTest {
         boolean flag = match.match("hello","world");
         System.out.println(flag);
     }
+
+    @Test
+    public void testFunction7(){
+        Dog dog = new Dog();
+        Supplier<Integer> supplier = ()->dog.getWeight();
+        int weight = supplier.getEntity();
+        System.out.println("---------------------------"+weight);
+        supplier = dog::getWeight;
+        supplier.getEntity();
+        System.out.println("---------------------------");
+        supplier = Dog::getAge;
+        int age = supplier.getEntity();
+        System.out.println(age );
+    }
+
+    @Test
+    public void testFunction8(){
+       IFunction<Integer,String[]> function = String[]::new;
+       String[] strings = function.getStrings(5);
+       strings[0] = "hello";
+       strings[1] = "hello2";
+       strings[2] = "hello3";
+       strings[3] = "hello4";
+       strings[4] = "hello5";
+
+       for (String s : strings){
+           System.out.println(s);
+       }
+    }
 }
