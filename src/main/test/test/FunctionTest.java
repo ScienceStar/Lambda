@@ -131,4 +131,17 @@ public class FunctionTest {
         Supplier<Integer> weight = dog::getWeight;
         System.out.println(weight.getEntity());
     }
+
+    @Test
+    public void testFunction10(){
+        IEntity<Integer,Integer,Dog> dogIEntity = (x,y)->{
+            return new Dog(x,y);
+        };
+        Dog dog = dogIEntity.getEntity(22,32);
+        System.out.println(dog.getWeight());
+        System.out.println("---------------------------------");
+        IEntity<Integer,Integer,Dog> dogIEntity1 = Dog::new;
+        Dog dog1 = dogIEntity1.getEntity(32,21);
+        System.out.println(dog1.getWeight());
+    }
 }

@@ -12,13 +12,19 @@ public class Dog {
     private Integer weight;
     private Integer height;
 
+    public Dog() {
+    }
+
+    public Dog(Integer weight, Integer height) {
+        this.weight = weight;
+        this.height = height;
+    }
+
     public static void crary(){
         System.out.println("The dog is crarying");
     }
 
     public Integer getWeight() {
-        System.out.println(21+"kg");
-        weight = 30;
         return weight;
     }
 
