@@ -91,7 +91,7 @@ public class FunctionTest {
     public void testFunction6() {
         IMatch match = String::equals;
         boolean flag = match.match("hello", "world");
-        System.out.println(flag);
+        ps.println(flag);
     }
 
     @Test
@@ -118,9 +118,17 @@ public class FunctionTest {
         strings[3] = "hello4";
         strings[4] = "hello5";
 
-        IFunction<String, String> iFunction = ps::println;
+        IFunction<String, String> iFunction = IStream::printStrem;
         for (String s : strings) {
             iFunction.getStrings(s);
         }
+    }
+
+    @Test
+    public void testFunction9(){
+        Supplier<Dog> dogSupplier = Dog::new;
+        Dog dog = dogSupplier.getEntity();
+        Supplier<Integer> weight = dog::getWeight;
+        System.out.println(weight.getEntity());
     }
 }
