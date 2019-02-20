@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ac1a8b-b51d-45bc-9878-d624bb98f5fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/test/test/MyHttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/service/IStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/service/IStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/test/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/test/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/FunctionTest.class" afterDir="false" />
     </list>
@@ -33,39 +34,43 @@
     <session id="-1999271809">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.57" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="17" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1513" />
+          <entry key="MyHttpServer" value="5" />
+          <entry key="java" value="2032" />
           <entry key="md" value="6" />
           <entry key="txt" value="36" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1513" />
+          <entry key="JAVA" value="2032" />
           <entry key="Markdown" value="6" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -75,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/test/FunctionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+            <state relative-caret-position="357">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1082#1083#0" expanded="true" />
@@ -89,29 +94,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/test/test/MyHttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="361">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/service/IFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/service/IEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/service/IStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="190">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -119,11 +127,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/bean/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="551">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
               <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/service/IMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -169,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/test/service/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -179,8 +189,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -202,10 +212,15 @@
         <option value="$PROJECT_DIR$/src/main/test/service/ICaculate.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/Supplier.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/IMatch.java" />
-        <option value="$PROJECT_DIR$/src/main/test/bean/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/IFunction.java" />
         <option value="$PROJECT_DIR$/src/main/test/service/IStream.java" />
+        <option value="$PROJECT_DIR$/src/main/test/service/IEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/test/bean/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/test/test/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/test/VertxDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/test/test/MyHttpServer" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/test/MyHttpServer.java" />
       </list>
     </option>
   </component>
@@ -216,9 +231,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="293" />
-    <option name="width" value="1182" />
+    <option name="x" value="1066" />
+    <option name="width" value="533" />
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -230,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,7 +302,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="IFunction" type="1a9f42e2:ClassTreeNode" />
+              <item name="IEntity" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="lambdaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -298,15 +312,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="IMatch" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="lambdaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="IStream" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="lambdaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -336,20 +341,35 @@
             </path>
             <path>
               <item name="lambdaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="MyHttpServer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="lambdaTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="MyHttpServer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="MyHttpServer" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550279209435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550643471424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -375,8 +395,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.testFunction8">
-    <configuration name="FunctionTest.testFunction5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyHttpServer">
+    <configuration name="MyHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MyHttpServer" />
+      <module name="lambdaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.testFunction10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambdaTest" />
       <extension name="coverage">
         <pattern>
@@ -386,7 +419,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction5" />
+      <option name="METHOD_NAME" value="testFunction10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.testFunction3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambdaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FunctionTest" />
+      <option name="METHOD_NAME" value="testFunction3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -408,7 +457,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.testFunction7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambdaTest" />
       <extension name="coverage">
         <pattern>
@@ -418,58 +467,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction7" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testFunction8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lambdaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testFunction9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lambdaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction9" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FunctionTest.testFunction5" />
       <item itemvalue="JUnit.FunctionTest.testFunction6" />
-      <item itemvalue="JUnit.FunctionTest.testFunction7" />
-      <item itemvalue="JUnit.FunctionTest.testFunction8" />
-      <item itemvalue="JUnit.FunctionTest.testFunction9" />
+      <item itemvalue="JUnit.FunctionTest.testFunction10" />
+      <item itemvalue="JUnit.FunctionTest.testFunction3" />
+      <item itemvalue="JUnit.FunctionTest.testList" />
+      <item itemvalue="Application.MyHttpServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionTest.testFunction8" />
-        <item itemvalue="JUnit.FunctionTest.testFunction9" />
+        <item itemvalue="Application.MyHttpServer" />
+        <item itemvalue="JUnit.FunctionTest.testList" />
+        <item itemvalue="JUnit.FunctionTest.testFunction3" />
         <item itemvalue="JUnit.FunctionTest.testFunction6" />
-        <item itemvalue="JUnit.FunctionTest.testFunction7" />
-        <item itemvalue="JUnit.FunctionTest.testFunction5" />
+        <item itemvalue="JUnit.FunctionTest.testFunction10" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +504,8 @@
       <updated>1550117103280</updated>
       <workItem from="1550117104829" duration="11203000" />
       <workItem from="1550191713951" duration="16145000" />
-      <workItem from="1550277300930" duration="1796000" />
+      <workItem from="1550277300930" duration="4224000" />
+      <workItem from="1550624559784" duration="5286000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1550117246144</created>
@@ -545,49 +563,63 @@
       <option name="project" value="LOCAL" />
       <updated>1550216407003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lambda 方法应用示例添加">
+      <created>1550279404700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550279404700</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lambda 方法应用示例添加">
+      <created>1550309722647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550309722647</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionTest_testFunction7 - 2019.02.15 at 15h 02m 35s.xml">
-      <configuration name="FunctionTest.testFunction7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction8 - 2019.02.15 at 15h 11m 07s.xml">
-      <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction8 - 2019.02.15 at 15h 17m 32s.xml">
-      <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction8 - 2019.02.15 at 15h 18m 38s.xml">
-      <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction8 - 2019.02.15 at 15h 34m 06s.xml">
-      <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction7 - 2019.02.15 at 15h 38m 43s.xml">
-      <configuration name="FunctionTest.testFunction7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction6 - 2019.02.15 at 16h 10m 48s.xml">
-      <configuration name="FunctionTest.testFunction6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction9 - 2019.02.16 at 08h 59m 21s.xml">
-      <configuration name="FunctionTest.testFunction9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionTest_testFunction9 - 2019.02.16 at 09h 00m 41s.xml">
-      <configuration name="FunctionTest.testFunction9" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunctionTest_testFunction8 - 2019.02.16 at 09h 06m 06s.xml">
       <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunctionTest_testFunction8 - 2019.02.16 at 09h 06m 51s.xml">
+      <configuration name="FunctionTest.testFunction8" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction10 - 2019.02.16 at 09h 32m 31s.xml">
+      <configuration name="FunctionTest.testFunction10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction10 - 2019.02.16 at 09h 33m 35s.xml">
+      <configuration name="FunctionTest.testFunction10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction10 - 2019.02.16 at 09h 35m 29s.xml">
+      <configuration name="FunctionTest.testFunction10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction6 - 2019.02.20 at 11h 24m 07s.xml">
+      <configuration name="FunctionTest.testFunction6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction6 - 2019.02.20 at 11h 25m 07s.xml">
+      <configuration name="FunctionTest.testFunction6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction6 - 2019.02.20 at 11h 29m 53s.xml">
+      <configuration name="FunctionTest.testFunction6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testFunction3 - 2019.02.20 at 11h 32m 22s.xml">
+      <configuration name="FunctionTest.testFunction3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionTest_testList - 2019.02.20 at 11h 32m 45s.xml">
+      <configuration name="FunctionTest.testList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29144000" />
+    <option name="totallyTimeSpent" value="36858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.22107969" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49816176" visible="true" weight="0.12789203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5018382" side_tool="true" weight="0.17866324" />
@@ -596,8 +628,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499375" visible="true" weight="0.32142857" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499375" visible="true" weight="0.11126374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,7 +639,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.25824177" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.078296706" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -665,17 +697,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/service/IFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/service/IStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -700,46 +732,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/service/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/jdk1.8/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="true" />
+            <element signature="e#55844#55845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/service/IMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/service/IEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/service/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/bean/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="551">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/service/IStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/test/MyHttpServer">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="463">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/test/FunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+        <state relative-caret-position="357">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/test/MyHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

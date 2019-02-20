@@ -90,7 +90,7 @@ public class FunctionTest {
     @Test
     public void testFunction6() {
         IMatch match = String::equals;
-        boolean flag = match.match("hello", "world");
+        boolean flag = match.match("Hello", "Hello");
         ps.println(flag);
     }
 
