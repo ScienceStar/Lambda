@@ -2,7 +2,6 @@ package test;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
-import io.vertx.core.http.HttpServer;
 import io.vertx.core.http.HttpServerRequest;
 import io.vertx.core.http.HttpServerResponse;
 import service.Consumer;
@@ -28,7 +27,7 @@ public class MyHttpServer extends AbstractVerticle {
 
     @Override
     public void start() throws Exception {
-        // 在这里可以通过this.vertx获取到当前的Vertx
+        /*// 在这里可以通过this.vertx获取到当前的Vertx
         Vertx vertx = this.vertx;
 
         // 创建一个HttpServer
@@ -37,7 +36,8 @@ public class MyHttpServer extends AbstractVerticle {
         server.requestHandler(IRequest::senRequestRequestMessage);
 
         // 指定监听80端口
-        server.listen(80);
+        server.listen(80);*/
+        Vertx.vertx().createHttpServer().requestHandler(IRequest::senRequestRequestMessage).listen(80);
         PrintStream ps = System.out;
         Consumer<String> stringConsumer = ps::println;
         stringConsumer.accecpt("服务启动成功.........................");
@@ -46,7 +46,7 @@ public class MyHttpServer extends AbstractVerticle {
 
 @FunctionalInterface
 interface IRequest{
-    public void sendRequest(HttpServerRequest request,HttpServerResponse response);
+    public void sendRequest(HttpServerRequest request);
 
     public static void senRequestRequestMessage(HttpServerRequest request){
         // 获取到response对象
@@ -56,6 +56,6 @@ interface IRequest{
         response.putHeader("Content-type", "text/html;charset=utf-8");
 
         // 响应数据
-        response.end("SUCCESS");
+        response.end("<h2>vert.x框架搭建成功!</h2>");
     }
 }
