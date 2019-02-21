@@ -9,7 +9,7 @@ package service;
  */
 @FunctionalInterface
 public interface IFunction<T> {
-    public void getStrings(T t);
+    public void getStrings(T t,String mess);
     public static void printStrem(String str){
         System.out.println(str);
     };

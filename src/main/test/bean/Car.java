@@ -26,7 +26,7 @@ public class Car {
     }
 
     // 不带入参
-    public void repair() {
-        System.out.println("Repaired car " + this.toString());
+    public void repair(String str) {
+        System.out.println("Repaired car " + this.toString()+str);
     }
 }

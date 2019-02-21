@@ -123,7 +123,7 @@ public class FunctionTest {
 
         IFunction<String> iFunction = IStream::printStrem;
         for (String s : strings) {
-            iFunction.getStrings(s);
+            iFunction.getStrings(s,"hello");
         }
     }
 
@@ -154,10 +154,10 @@ public class FunctionTest {
     public void testFunction11(){
         final Car car = Car.create(Car::new);
         final List<Car> cars = Arrays.asList(car);
-        Consumer<Car> carConsumer = Car::repair;
+       // Consumer<Car> carConsumer = Car::repair;
 
         //类方法引用
         IFunction<Car> carIFunction = Car::repair;
-        carIFunction.getStrings(car);
+        carIFunction.getStrings(car,"--->hello");
     }
 }

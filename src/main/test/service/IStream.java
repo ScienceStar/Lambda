@@ -10,7 +10,7 @@ package service;
 @FunctionalInterface
 public interface IStream<T,K> {
     public K getStrings(T t);
-    public static void printStrem(String str){
+    public static void printStrem(String str,String str2){
         for (char c: str.toCharArray()){
             System.out.println(c);
         }
