@@ -3,6 +3,8 @@ package test;
 import bank.Bank;
 import bank.Bank2;
 import bank.RunableFunction;
+import service.IFunction;
+import service.IFunction2;
 
 /**
  * @author lxc
@@ -31,10 +33,15 @@ public class SyncThreadTest {
             }
         });
 
-        RunableFunction runableFunction = new RunableFunction();
+        /*RunableFunction runableFunction = new RunableFunction();
         Runnable runnable = RunableFunction::runRunable;
+        IFunction2<String,String> iFunction2 = String::equals;
+        System.out.println(iFunction2.getStrings("Mike") );
         Thread tbdd = new Thread(runnable);
-        tbdd.start();
+        tbdd.start();*/
+
+        IFunction2<String,String> iFunction2 =new RunableFunction()::matchStr;
+        System.out.println(iFunction2.getStrings("hello","world"));
 
         Thread tsub = new Thread(() -> {
             while (true) {

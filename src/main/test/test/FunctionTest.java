@@ -1,5 +1,6 @@
 package test;
 
+import bean.Car;
 import bean.Dog;
 import org.junit.Test;
 import service.*;
@@ -21,6 +22,7 @@ public class FunctionTest {
 
     @Test
     public void testLambda() {
+        //静态方法引用
         ICaculate caculate = ICaculate::getResult1;
 
         int num = caculate.getResult(3, 4, 5, 3);
@@ -110,6 +112,7 @@ public class FunctionTest {
 
     @Test
     public void testFunction8() {
+        //数组引用
         IStream<Integer,String[]> stream = String[]::new;
         String[] strings = stream.getStrings(5);
         strings[0] = "hello1";
@@ -118,7 +121,7 @@ public class FunctionTest {
         strings[3] = "hello4";
         strings[4] = "hello5";
 
-        IFunction<String, String> iFunction = IStream::printStrem;
+        IFunction<String> iFunction = IStream::printStrem;
         for (String s : strings) {
             iFunction.getStrings(s);
         }
@@ -128,6 +131,7 @@ public class FunctionTest {
     public void testFunction9(){
         Supplier<Dog> dogSupplier = Dog::new;
         Dog dog = dogSupplier.getEntity();
+        //实例方法引用
         Supplier<Integer> weight = dog::getWeight;
         System.out.println(weight.getEntity());
     }
@@ -140,8 +144,20 @@ public class FunctionTest {
         Dog dog = dogIEntity.getEntity(22,32);
         System.out.println(dog.getWeight());
         System.out.println("---------------------------------");
+        //构造引用
         IEntity<Integer,Integer,Dog> dogIEntity1 = Dog::new;
         Dog dog1 = dogIEntity1.getEntity(32,21);
         System.out.println(dog1.getWeight());
+    }
+
+    @Test
+    public void testFunction11(){
+        final Car car = Car.create(Car::new);
+        final List<Car> cars = Arrays.asList(car);
+        Consumer<Car> carConsumer = Car::repair;
+
+        //类方法引用
+        IFunction<Car> carIFunction = Car::repair;
+        carIFunction.getStrings(car);
     }
 }
