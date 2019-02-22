@@ -74,7 +74,7 @@ public class FunctionTest {
         caculate.getResult(3, 4, 14, 3);
         System.out.println("--------------------------");
         ICompare compare = ICompare::startsWith;
-        boolean flag = compare.test("http:");
+        boolean flag = compare.test("http://");
         System.out.println(flag);
     }
 
@@ -153,11 +153,15 @@ public class FunctionTest {
     @Test
     public void testFunction11(){
         final Car car = Car.create(Car::new);
+        car.setCarColor("黑色");
+        car.setCarPrice("50");
         final List<Car> cars = Arrays.asList(car);
        // Consumer<Car> carConsumer = Car::repair;
 
         //类方法引用
         IFunction<Car> carIFunction = Car::repair;
         carIFunction.getStrings(car,"--->hello");
+        System.out.println("----------------------------");
+        cars.forEach(Car::repair2);
     }
 }
