@@ -41,8 +41,8 @@ public class NIOClient {
         socketChannel.register(selector, SelectionKey.OP_CONNECT);
         // 连接
         socketChannel.connect(SERVER_ADDRESS);
-        // 分配缓冲区大小内存
 
+        // 分配缓冲区大小内存
         Set<SelectionKey> selectionKeys;
         Iterator<SelectionKey> iterator;
         SelectionKey selectionKey;
