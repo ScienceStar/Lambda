@@ -99,6 +99,7 @@ public class FunctionTest {
     @Test
     public void testFunction7() {
         Dog dog = new Dog( );
+        dog.setWeight(32);
         Supplier<Integer> supplier = () -> dog.getWeight( );
         Supplier<Integer> supplier2 = supplier::getEntity;
         System.out.println("--------------111-------------" + supplier2.getEntity());
