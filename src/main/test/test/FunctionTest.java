@@ -122,7 +122,7 @@ public class FunctionTest {
         strings[3] = "hello4";
         strings[4] = "hello5";
 
-        IFunction<String> iFunction = IStream::printStrem;
+        IFunction<String> iFunction = IFunction::printStrem;
         for (String s : strings) {
             iFunction.getStrings(s,"hello");
         }
@@ -132,6 +132,7 @@ public class FunctionTest {
     public void testFunction9(){
         Supplier<Dog> dogSupplier = Dog::new;
         Dog dog = dogSupplier.getEntity();
+        dog.setWeight(15);
         //实例方法引用
         Supplier<Integer> weight = dog::getWeight;
         System.out.println(weight.getEntity());
@@ -157,7 +158,10 @@ public class FunctionTest {
         car.setCarColor("黑色");
         car.setCarPrice("50");
         final List<Car> cars = Arrays.asList(car);
-       // Consumer<Car> carConsumer = Car::repair;
+        //Consumer<Car> carConsumer = Car::repair;
+        for(Car car1 : cars){
+            System.out.println(car1.getCarColor()+"  "+car1.getCarPrice() );
+        }
 
         //类方法引用
         IFunction<Car> carIFunction = Car::repair;

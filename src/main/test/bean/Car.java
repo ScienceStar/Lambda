@@ -31,11 +31,11 @@ public class Car {
 
     // 不带入参
     public void repair(String str) {
-        System.out.println("Repaired car " + this.toString()+str);
+        System.out.println("Repaired car " + str);
     }
 
     public void repair2() {
-        System.out.println("Repaired car " + this.toString());
+        System.out.println("Repaired car " + this.getCarColor());
     }
 
     public String getCarColor() {

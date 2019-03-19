@@ -10,7 +10,7 @@ package service;
 @FunctionalInterface
 public interface IFunction<T> {
     public void getStrings(T t,String mess);
-    public static void printStrem(String str){
+    public static void printStrem(String str,String str2){
         System.out.println(str);
     };
 }
