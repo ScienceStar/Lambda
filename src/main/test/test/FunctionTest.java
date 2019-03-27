@@ -26,7 +26,7 @@ public class FunctionTest {
         ICaculate caculate = ICaculate::getResult1;
 
         int num = caculate.getResult(3, 4, 5, 3);
-        System.out.println(num);
+        ps.println(num);
     }
 
     @Test
@@ -38,12 +38,12 @@ public class FunctionTest {
                 "Juan Martin Del Potro"};
         List<String> players = Arrays.asList(atp);
 
-        players.forEach((player) -> {
-            System.out.println(player);
+        players.forEach((x) -> {
+            ps.println(x);
         });
 
-        System.out.println("--------------------");
-        players.forEach(System.out::println);
+        ps.println("--------------------");
+        players.forEach(ps::println);
     }
 
     @Test
@@ -59,23 +59,23 @@ public class FunctionTest {
         //3  调用方法
         con.accecpt("Hello World\n");
         //4  上面是一个简单的例子，下面我们换个写法
-        System.out.println("--------------------------------");
+        ps.println("--------------------------------");
         //5  ps为PrintStream对象，println为实例方法
         Consumer<String> con2 = ps::print;
         //6  调用方法
         con2.accecpt("Hello Java8！");
         //7  所以也可换成这种写法
-        //Consumer<String> con3 = System.out::println;
+        //Consumer<String> con3 = ps::println;
     }
 
     @Test
     public void testFunction4() {
         ICaculate caculate = ICaculate::getResult3;
         caculate.getResult(3, 4, 14, 3);
-        System.out.println("--------------------------");
+        ps.println("--------------------------");
         ICompare compare = ICompare::startsWith;
         boolean flag = compare.test("http://");
-        System.out.println(flag);
+        ps.println(flag);
     }
 
     @Test
@@ -83,10 +83,10 @@ public class FunctionTest {
         Supplier<Dog> dogSupplier = Dog::new;
         Dog d = dogSupplier.getEntity( );
         d.getWeight( );
-        System.out.println("---------------------------------");
+        ps.println("---------------------------------");
         Supplier<Integer> dog = Dog::getAge;
         int age = dog.getEntity( );
-        System.out.println(age);
+        ps.println(age);
     }
 
     @Test
@@ -102,13 +102,13 @@ public class FunctionTest {
         dog.setWeight(32);
         Supplier<Integer> supplier = () -> dog.getWeight( );
         Supplier<Integer> supplier2 = supplier::getEntity;
-        System.out.println("--------------111-------------" + supplier2.getEntity());
+        ps.println("--------------111-------------" + supplier2.getEntity());
         supplier = dog::getWeight;
         supplier.getEntity( );
-        System.out.println("---------------------------");
+        ps.println("---------------------------");
         supplier = Dog::getHeight;
         Integer height = supplier.getEntity( );
-        System.out.println("Height->" + height);
+        ps.println("Height->" + height);
     }
 
     @Test
@@ -135,7 +135,7 @@ public class FunctionTest {
         dog.setWeight(15);
         //实例方法引用
         Supplier<Integer> weight = dog::getWeight;
-        System.out.println(weight.getEntity());
+        ps.println(weight.getEntity());
     }
 
     @Test
@@ -144,12 +144,12 @@ public class FunctionTest {
             return new Dog(x,y);
         };
         Dog dog = dogIEntity.getEntity(22,32);
-        System.out.println(dog.getWeight());
-        System.out.println("---------------------------------");
+        ps.println(dog.getWeight());
+        ps.println("---------------------------------");
         //构造引用
         IEntity<Integer,Integer,Dog> dogIEntity1 = Dog::new;
         Dog dog1 = dogIEntity1.getEntity(32,21);
-        System.out.println(dog1.getWeight());
+        ps.println(dog1.getWeight());
     }
 
     @Test
@@ -160,13 +160,13 @@ public class FunctionTest {
         final List<Car> cars = Arrays.asList(car);
         //Consumer<Car> carConsumer = Car::repair;
         for(Car car1 : cars){
-            System.out.println(car1.getCarColor()+"  "+car1.getCarPrice() );
+            ps.println(car1.getCarColor()+"  "+car1.getCarPrice() );
         }
 
         //类方法引用
         IFunction<Car> carIFunction = Car::repair;
         carIFunction.getStrings(car,"--->hello");
-        System.out.println("----------------------------");
+        ps.println("----------------------------");
         cars.forEach(Car::repair2);
     }
 }
