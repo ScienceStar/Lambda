@@ -1,5 +1,17 @@
 package test;
 
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.EncodeHintType;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.WriterException;
+import com.google.zxing.client.j2se.MatrixToImageWriter;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
+import org.junit.Test;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -55,7 +67,31 @@ public class CatchDataTest {
     static Object queryDataFromDB(Integer key) {
         Object val = new Random( ).nextInt(1000);
         dataMap.put(key, val);
-        System.out.println("write into data key=" + key + ">val=" + val);
+        System.out.println("write into data key=" +key+ ">val=" + dataMap.get(key));
         return val;
+    }
+
+    /**
+     * 二维码生成
+     */
+    @Test
+    public void bitMatrixCreate(){
+        int width=300;
+        int height=300;
+        String format="png";
+        String contents="孙子兵法-孙武";
+        HashMap map=new HashMap();
+        map.put(EncodeHintType.CHARACTER_SET, "utf-8");
+        map.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.M);
+        map.put(EncodeHintType.MARGIN, 0);
+        try {
+            BitMatrix bm = new MultiFormatWriter().encode(contents, BarcodeFormat.QR_CODE, width, height);
+            Path file=new File("D:/img.png").toPath();
+            MatrixToImageWriter.writeToPath(bm, format, file);
+        } catch (WriterException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
