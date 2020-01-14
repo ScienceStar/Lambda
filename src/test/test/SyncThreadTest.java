@@ -1,9 +1,7 @@
 package test;
 
-import bank.Bank;
 import bank.Bank2;
 import bank.RunableFunction;
-import service.IFunction;
 import service.IFunction2;
 
 /**
