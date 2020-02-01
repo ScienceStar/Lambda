@@ -23,10 +23,16 @@ public class FunctionTest {
     @Test
     public void testLambda() {
         //静态方法引用
-        ICaculate caculate = ICaculate::getResult1;
+        ICaculate caculate = getCacuLate()::getResult;
 
         int num = caculate.getResult(3, 4, 5, 3);
         ps.println(num);
+    }
+
+    public ICalResult getCacuLate(){
+        return (a,b,c,d)->{
+            return a+b+c+d;
+        };
     }
 
     @Test
@@ -169,4 +175,18 @@ public class FunctionTest {
         ps.println("----------------------------");
         cars.forEach(Car::repair2);
     }
+
+    @Test
+    public void testCal(){
+        ICalResult calResult = (x1,x2,x3,x4) ->{
+            return x1+x2+x3+x4+3;
+        };
+
+        System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
+    }
+}
+
+@FunctionalInterface
+interface ICalResult{
+    int getResult(int i, int i1, int i2, int i3);
 }

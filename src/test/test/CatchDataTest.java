@@ -7,6 +7,7 @@ import com.google.zxing.WriterException;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
+import org.junit.AfterClass;
 import org.junit.Test;
 
 import java.io.File;
@@ -54,6 +55,11 @@ public class CatchDataTest {
             lock.readLock( ).unlock( );//最后一定不要忘记释放锁 System.out.println("get data key="+key+">val="+val);
             return val;
         }
+    }
+
+    @AfterClass
+    public static void afterClass() throws Exception {
+
     }
 
     public static void main(String[] args) {
