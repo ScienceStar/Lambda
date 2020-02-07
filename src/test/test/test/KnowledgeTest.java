@@ -9,6 +9,9 @@ import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.lang.reflect.Field;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class KnowledgeTest {
 
@@ -129,5 +132,57 @@ public class KnowledgeTest {
 
         Car car1 = car.deepClone();
         System.out.println(car1.getCarColor()+"->"+car1.getCarPrice());
+    }
+
+    /**
+     * @MethodName: testEquals
+     * @Description: TODO == 与 equals 比较
+     * @Param: []
+     * @Return: void
+     * @Author: lxc
+     * @Date: 2020/2/6 17:55
+     **/
+    @Test
+    public void testEquals(){
+        String a="x",b="x";
+        String c = new String("x");
+        System.out.println(a==b);
+        System.out.println(a.equals(b));
+        System.out.println(a.equals(c));
+        System.out.println(a==c);
+    }
+
+    @Test
+    public void testCal(){
+        int a=3;
+        System.out.println(++a);
+    }
+
+    @Test
+    public void testMap(){
+        Map<String,Object> map = new HashMap<String,Object>();
+
+        map.put("1","jack");
+        map.put("2","tom");
+        map.put("3","tina");
+
+        System.out.println(map.get("1").hashCode());
+    }
+
+    private static int i;
+    private volatile boolean isStop = false;
+    @Test
+    public void testThread() throws InterruptedException {
+        Thread thread = new Thread(()->{
+            while (!isStop){
+                i++;
+                System.out.println("num:->"+i);
+            }
+        });
+
+        thread.start();
+        TimeUnit.SECONDS.sleep(2);
+        isStop=true;
+        System.out.println("Thread is stoped!");
     }
 }

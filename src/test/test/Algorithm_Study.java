@@ -7,5 +7,5 @@ package test;
  * @Date 2020/2/5
  * @Version V1.0
  **/
-public class KnowledgeTest2 {
+public class Algorithm_Study {
 }

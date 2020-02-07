@@ -14,7 +14,7 @@ import java.io.*;
 public class Car implements Cloneable, Serializable {
 
     public String carColor;
-    public String carPrice;
+    transient public String carPrice;
 
     @Override
     public Object clone() throws CloneNotSupportedException {
