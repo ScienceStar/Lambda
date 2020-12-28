@@ -1,5 +1,3 @@
-package test;
-
 import bean.Car;
 import bean.Dog;
 import org.junit.Test;
