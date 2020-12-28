@@ -2,6 +2,8 @@ package bean;
 
 import service.Supplier;
 
+import java.io.*;
+
 /**
  * @author lxc
  * @Title: Car
@@ -9,10 +11,23 @@ import service.Supplier;
  * @Description: TODO
  * @date 2019/2/21 14:03
  */
-public class Car {
+public class Car implements Cloneable, Serializable {
 
     public String carColor;
-    public String carPrice;
+    transient public String carPrice;
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "carColor='" + carColor + '\'' +
+                ", carPrice='" + carPrice + '\'' +
+                '}';
+    }
 
     // 通过Supplier获取Car实例
     public static Car create(Supplier<Car> supplier) {
@@ -52,5 +67,23 @@ public class Car {
 
     public void setCarPrice(String carPrice) {
         this.carPrice = carPrice;
+    }
+
+    /**
+     * @MethodName: deepClone
+     * @Description: TODO 深克隆
+     * @Param: []
+     * @Return: bean.Car
+     * @Author: lxc
+     * @Date: 2020/2/6 14:06
+     **/
+    public Car deepClone() throws IOException, ClassNotFoundException {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+        objectOutputStream.writeObject(this);
+
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+        ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
+        return (Car) objectInputStream.readObject();
     }
 }

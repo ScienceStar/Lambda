@@ -182,6 +182,17 @@ public class FunctionTest {
 
         System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
     }
+
+    @Test
+    public void testAlg(){
+        int a=3,b=4;
+
+        if((a+b)>5){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
+    }
 }
 
 @FunctionalInterface
