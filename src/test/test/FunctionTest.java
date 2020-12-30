@@ -29,7 +29,7 @@ public class FunctionTest {
 
     public ICalResult getCacuLate(){
         return (a,b,c,d)->{
-            return a+b+c+d;
+            return a+b*c+d;
         };
     }
 
@@ -74,6 +74,7 @@ public class FunctionTest {
 
     @Test
     public void testFunction4() {
+        //静态方法引用
         ICaculate caculate = ICaculate::getResult3;
         caculate.getResult(3, 4, 14, 3);
         ps.println("--------------------------");
