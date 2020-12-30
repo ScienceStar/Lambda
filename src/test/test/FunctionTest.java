@@ -22,9 +22,11 @@ public class FunctionTest {
     public void testLambda() {
         //静态方法引用
         ICaculate caculate = getCacuLate()::getResult;
+        ICaculate cal = ICaculate::getResult3;
 
         int num = caculate.getResult(3, 4, 5, 3);
-        ps.println(num);
+        int num2 =cal.getResult(3,8,2,3);
+        ps.println(num+"     "+num2);
     }
 
     public ICalResult getCacuLate(){

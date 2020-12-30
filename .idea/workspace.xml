@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +223,7 @@
       <workItem from="1581065370729" duration="599000" />
       <workItem from="1581066011878" duration="3732000" />
       <workItem from="1609207006983" duration="2890000" />
-      <workItem from="1609296766002" duration="375000" />
+      <workItem from="1609296766002" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -276,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609207285676</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lambda update">
+      <created>1609310413640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609310413640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
