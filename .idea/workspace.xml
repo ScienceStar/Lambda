@@ -6,7 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/FunctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/KnowledgeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/MyHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/SyncThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/test/Algorithm_Study.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/test/CallThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/test/CatchDataTest.java" beforeDir="false" />
+    </list>
+    <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lambda.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +114,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -91,7 +122,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/lambda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -105,17 +136,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FunctionTest.testCal">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,6 +227,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="" />
+      <changelist id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="" />
       <created>1578980586500</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -225,7 +260,8 @@
       <workItem from="1609642515141" duration="591000" />
       <workItem from="1609673616112" duration="63000" />
       <workItem from="1609682878935" duration="587000" />
-      <workItem from="1609727444556" duration="3961000" />
+      <workItem from="1609727444556" duration="4147000" />
+      <workItem from="1609810215373" duration="1807000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -297,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609740826476</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="使用占位符打印日志信息">
+      <created>1609765850196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609765850196</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,11 +359,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="structure chnge" />
     <MESSAGE value="java 基础知识测试 - 浅克隆、深克隆" />
     <MESSAGE value="lambda update" />
     <MESSAGE value="java 基础知识测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 基础知识测试" />
+    <MESSAGE value="使用占位符打印日志信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用占位符打印日志信息" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
