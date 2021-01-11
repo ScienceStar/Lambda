@@ -6,22 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/FunctionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/KnowledgeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/MyHttpServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/SyncThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/test/Algorithm_Study.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/test/CallThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/test/CatchDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -139,17 +130,26 @@
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lx" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.testCal">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SyncThreadTest">
+    <configuration name="SyncThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyncThreadTest" />
+      <module name="Lambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,22 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnowledgeTest.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.KnowledgeTest" />
-      <option name="METHOD_NAME" value="testThread" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test2.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <option name="PACKAGE_NAME" value="" />
@@ -212,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncThreadTest" />
         <item itemvalue="JUnit.FunctionTest.testCal" />
         <item itemvalue="JUnit.FunctionTest.testFunction7" />
         <item itemvalue="JUnit.FunctionTest.testFunction5" />
         <item itemvalue="JUnit.Test2.testAdd" />
-        <item itemvalue="JUnit.KnowledgeTest.testThread" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +245,8 @@
       <workItem from="1609673616112" duration="63000" />
       <workItem from="1609682878935" duration="587000" />
       <workItem from="1609727444556" duration="4147000" />
-      <workItem from="1609810215373" duration="1807000" />
+      <workItem from="1609810215373" duration="2674000" />
+      <workItem from="1610336984210" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -340,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609765850196</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="项目目录结构改变">
+      <created>1609829903386</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829903386</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +357,8 @@
     <MESSAGE value="lambda update" />
     <MESSAGE value="java 基础知识测试" />
     <MESSAGE value="使用占位符打印日志信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用占位符打印日志信息" />
+    <MESSAGE value="项目目录结构改变" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目目录结构改变" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

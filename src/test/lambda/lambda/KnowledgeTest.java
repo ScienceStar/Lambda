@@ -1,8 +1,3 @@
-package lambda;
-
-
-
-
 import bean.Car;
 import org.junit.Test;
 
