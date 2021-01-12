@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Car.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -113,7 +113,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -240,7 +240,9 @@
       <workItem from="1609682878935" duration="587000" />
       <workItem from="1609727444556" duration="4147000" />
       <workItem from="1609810215373" duration="2674000" />
-      <workItem from="1610336984210" duration="1559000" />
+      <workItem from="1610336984210" duration="1590000" />
+      <workItem from="1610346349189" duration="945000" />
+      <workItem from="1610419792692" duration="3428000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -333,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610337899087</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="项目目录结构改变">
+      <created>1610346293570</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610346293570</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

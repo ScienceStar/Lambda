@@ -16,7 +16,15 @@ public class Bank2 {
         System.out.println(System.currentTimeMillis()+"存进："+money);
     }
 
-    //取钱
+    /**
+     * @MethodName: subMoney
+     * @Description: TODO 取钱
+     * @Param [money]
+     * @Return void
+     * @Throws
+     * @Author lxc
+     * @Date 2021/1/12 11:49
+     */
     public  synchronized void subMoney(int money){
         if(count-money < 0){
             System.out.println("余额不足");
