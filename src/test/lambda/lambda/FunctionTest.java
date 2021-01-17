@@ -227,6 +227,14 @@ public class FunctionTest {
         num.b=num.a-num.b;
         num.a-=num.b;
     }
+
+    @Test
+    public void test3(){
+        Dog dog = new Dog();
+        dog.setWeight(21);
+        dog.setHeight(35);
+        System.out.println(dog.getWeight()+"   "+Dog.getHeight());
+    }
 }
 
 @FunctionalInterface
