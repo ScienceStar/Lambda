@@ -45,8 +45,8 @@ public class Car implements Cloneable, Serializable {
     }
 
     // 不带入参
-    public void repair(String str) {
-        System.out.println("Repaired car " + str);
+    public static void repair(Car car, String str) {
+        System.out.println("Repaired car " +car.getCarColor()+"  "+ str);
     }
 
     public void repair2() {

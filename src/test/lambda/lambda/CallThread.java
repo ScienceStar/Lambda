@@ -1,6 +1,3 @@
-package lambda;
-
-
 import org.junit.Test;
 import thread.MyCallable;
 
