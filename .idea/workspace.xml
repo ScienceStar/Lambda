@@ -7,6 +7,7 @@
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/IFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/IFunction.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -113,7 +114,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -129,7 +130,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SyncThreadTest">
+  <component name="RunManager" selected="JUnit.FunctionTest.testFunction11">
     <configuration name="SyncThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SyncThreadTest" />
       <module name="Lambda" />
@@ -137,13 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,11 +161,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.testFunction5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.testFunction11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction5" />
+      <option name="METHOD_NAME" value="testFunction11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.testFunction11" />
+        <item itemvalue="JUnit.Test2.testAdd" />
         <item itemvalue="Application.SyncThreadTest" />
         <item itemvalue="JUnit.FunctionTest.testCal" />
         <item itemvalue="JUnit.FunctionTest.testFunction7" />
-        <item itemvalue="JUnit.FunctionTest.testFunction5" />
-        <item itemvalue="JUnit.Test2.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +245,13 @@
       <workItem from="1609810215373" duration="2674000" />
       <workItem from="1610336984210" duration="1590000" />
       <workItem from="1610346349189" duration="945000" />
-      <workItem from="1610419792692" duration="3428000" />
+      <workItem from="1610419792692" duration="6084000" />
+      <workItem from="1610504474649" duration="1966000" />
+      <workItem from="1610521418638" duration="145000" />
+      <workItem from="1610762300417" duration="591000" />
+      <workItem from="1610765657616" duration="840000" />
+      <workItem from="1610861460012" duration="2212000" />
+      <workItem from="1610869589001" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -342,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610346293570</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="注释模版修改">
+      <created>1610423452133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610423452133</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +384,8 @@
     <MESSAGE value="java 基础知识测试" />
     <MESSAGE value="使用占位符打印日志信息" />
     <MESSAGE value="项目目录结构改变" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目目录结构改变" />
+    <MESSAGE value="注释模版修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释模版修改" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
