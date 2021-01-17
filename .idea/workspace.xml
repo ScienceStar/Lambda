@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/IFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/IFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -130,14 +129,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.testFunction11">
-    <configuration name="SyncThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SyncThreadTest" />
-      <module name="Lambda" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FunctionTest.testSwap">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -181,6 +173,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="METHOD_NAME" value="testSwap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test2.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <option name="PACKAGE_NAME" value="" />
@@ -193,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionTest.testFunction11" />
+        <item itemvalue="JUnit.FunctionTest.testSwap" />
         <item itemvalue="JUnit.Test2.testAdd" />
-        <item itemvalue="Application.SyncThreadTest" />
-        <item itemvalue="JUnit.FunctionTest.testCal" />
+        <item itemvalue="JUnit.FunctionTest.testFunction11" />
         <item itemvalue="JUnit.FunctionTest.testFunction7" />
+        <item itemvalue="JUnit.FunctionTest.testCal" />
       </list>
     </recent_temporary>
   </component>
