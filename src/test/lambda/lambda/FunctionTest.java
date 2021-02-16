@@ -1,3 +1,5 @@
+package lambda.lambda;
+
 import bean.Car;
 import bean.Dog;
 import io.vertx.core.logging.Logger;
@@ -201,9 +203,69 @@ public class FunctionTest {
             System.out.println("false");
         }
     }
+
+    @Test
+    public void testSwap(){
+        Num num = new Num(3,4);
+        swap(num);
+        System.out.println(num.a+"    "+num.b);
+    }
+
+    /**
+     * @MethodName: swap
+     * @Description: TODO  数据交换,传入对象,交换属性值（参数引用传递）,实质是值传递,调用交换函数，实质是修改
+     * 引用所对应对象的值.
+     * @Param [num]
+     * @Return void
+     * @Throws
+     * @Author lxc
+     * @Date 2021/1/17 16:31
+     */
+    public void swap(Num num){
+        /*a+=b;
+        b=a-b;
+        a-=b;*/
+        num.a+=num.b;
+        num.b=num.a-num.b;
+        num.a-=num.b;
+    }
+
+    @Test
+    public void test3(){
+        Dog dog = new Dog();
+        dog.setWeight(21);
+        dog.setHeight(35);
+        System.out.println(dog.getWeight()+"   "+Dog.getHeight());
+    }
 }
 
 @FunctionalInterface
 interface ICalResult{
     int getResult(int i, int i1, int i2, int i3);
+}
+
+class Num{
+    int a;
+    int b;
+
+    public Num(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public void setB(int b) {
+        this.b = b;
+    }
 }

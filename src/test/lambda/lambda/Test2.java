@@ -1,3 +1,5 @@
+package lambda.lambda;
+
 import org.junit.Test;
 
 public class Test2 {

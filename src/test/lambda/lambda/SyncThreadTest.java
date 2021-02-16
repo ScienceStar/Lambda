@@ -1,3 +1,5 @@
+package lambda.lambda;
+
 import bank.Bank2;
 import bank.RunableFunction;
 import service.IFunction2;
