@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/lambda/lambda/InstanceInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -115,7 +125,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -131,14 +141,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.test3">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InstanceInit.serializationInstance">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,26 +160,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FunctionTest" />
       <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testFunction11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testFunction7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +175,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstanceInit.constructorInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
+      <option name="METHOD_NAME" value="constructorInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInit.pathCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
+      <option name="METHOD_NAME" value="pathCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInit.serializationInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
+      <option name="METHOD_NAME" value="serializationInstance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,15 +225,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InstanceInit.serializationInstance" />
+        <item itemvalue="JUnit.InstanceInit.constructorInstance" />
+        <item itemvalue="JUnit.InstanceInit.pathCreate" />
         <item itemvalue="JUnit.FunctionTest.test3" />
         <item itemvalue="JUnit.FunctionTest.testSwap" />
-        <item itemvalue="JUnit.Test2.testAdd" />
-        <item itemvalue="JUnit.FunctionTest.testFunction11" />
-        <item itemvalue="JUnit.FunctionTest.testFunction7" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,7 +288,11 @@
       <workItem from="1610861460012" duration="2212000" />
       <workItem from="1610869589001" duration="678000" />
       <workItem from="1610889357807" duration="498000" />
-      <workItem from="1610889902478" duration="345000" />
+      <workItem from="1610889902478" duration="1380000" />
+      <workItem from="1610937856417" duration="619000" />
+      <workItem from="1610951944407" duration="23000" />
+      <workItem from="1611379930844" duration="232000" />
+      <workItem from="1613441902496" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -369,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610872591968</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pluging update">
+      <created>1610890296609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610890296609</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +441,8 @@
     <MESSAGE value="项目目录结构改变" />
     <MESSAGE value="注释模版修改" />
     <MESSAGE value="参数值传递与引用传递的区别" />
-    <option name="LAST_COMMIT_MESSAGE" value="参数值传递与引用传递的区别" />
+    <MESSAGE value="pluging update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pluging update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -409,5 +454,6 @@
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="" />
     <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
   </component>
 </project>

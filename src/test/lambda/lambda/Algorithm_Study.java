@@ -1,3 +1,5 @@
+package lambda.lambda;
+
 /**
  * @ClassName KnowledgeTest2
  * @Description: TODO java基础知识测试
