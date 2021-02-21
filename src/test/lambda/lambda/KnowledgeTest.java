@@ -226,7 +226,7 @@ public class KnowledgeTest {
                     break;
                 }
 
-
+                third:
                 for (int k = 0; k < 2; ++k) {
                     System.out.println("\t\tthird: " + (k + 1) + " times start");
                     if (i == 1 && j == 0 && k == 0) {
@@ -247,6 +247,42 @@ public class KnowledgeTest {
                 System.out.println("\tsecond: " + (j + 1) + " times end");
             }
             System.out.println("first: " + (i + 1) + " times end");
+        }
+    }
+
+    @Test
+    public void testGoTo(){
+        //打印101~150之间的所有质数
+        //质数是指在大于1的自然数中，除了1和它本身以外不再有其他因数的自然数。
+        int count = 0;
+        outer:for (int i = 101; i < 150; i++) {
+            for (int j = 2; j < i/2; j++){
+                if (i % j == 0){
+                    continue outer;
+                }
+            }
+            System.out.println(i+"");
+        }
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        char a;
+        outer:
+        for(int i = 0; i < 10; i++)
+        {
+            for(int j = 0; j <10; j++)
+            {
+                a =(char) System.in.read();
+                if(a == 'b')
+                    break outer;
+                if(a == 'c'){
+                    System.out.println(j);
+                    if(j%2==0){
+                        continue outer;
+                    }
+                }
+            }
         }
     }
 }
