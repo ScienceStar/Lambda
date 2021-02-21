@@ -429,6 +429,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="注释模版修改" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1613895367477">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="124" y="0" key="CommitChangelistDialog2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895367477" />
     <state width="1238" height="305" key="GridCell.Tab.0.bottom" timestamp="1613895333254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -494,6 +498,10 @@
     </state>
     <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613894310896" />
     <state x="179" y="23" key="SettingsEditor/1280.23.1920.1057/0.23.1280.731@0.23.1280.731" timestamp="1613778189064" />
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2" timestamp="1613895370970">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895370970" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
