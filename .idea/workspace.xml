@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/lambda/lambda/InstanceInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -32,7 +24,7 @@
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lambda.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lambda.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
@@ -83,12 +82,13 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.1/conf/settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -121,11 +121,10 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/lambda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -141,41 +140,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InstanceInit.serializationInstance">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="testSwap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstanceInit.constructorInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KnowledgeTest.testAssert">
+    <configuration name="FunctionTest.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -184,14 +150,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="constructorInstance" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
+      <option name="METHOD_NAME" value="testLambda" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInit.pathCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnowledgeTest.testAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -200,14 +166,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="pathCreate" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testAssert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInit.serializationInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnowledgeTest.testFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +182,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="serializationInstance" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testFloat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeTest.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeTest.testSoftRef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testSoftRef" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,15 +223,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InstanceInit.serializationInstance" />
-        <item itemvalue="JUnit.InstanceInit.constructorInstance" />
-        <item itemvalue="JUnit.InstanceInit.pathCreate" />
-        <item itemvalue="JUnit.FunctionTest.test3" />
-        <item itemvalue="JUnit.FunctionTest.testSwap" />
+        <item itemvalue="JUnit.KnowledgeTest.testAssert" />
+        <item itemvalue="JUnit.KnowledgeTest.testFloat" />
+        <item itemvalue="JUnit.KnowledgeTest.testSoftRef" />
+        <item itemvalue="JUnit.KnowledgeTest.testMap" />
+        <item itemvalue="JUnit.FunctionTest.testLambda" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -287,12 +285,13 @@
       <workItem from="1610765657616" duration="840000" />
       <workItem from="1610861460012" duration="2212000" />
       <workItem from="1610869589001" duration="678000" />
-      <workItem from="1610889357807" duration="498000" />
-      <workItem from="1610889902478" duration="1380000" />
-      <workItem from="1610937856417" duration="619000" />
-      <workItem from="1610951944407" duration="23000" />
-      <workItem from="1611379930844" duration="232000" />
-      <workItem from="1613441902496" duration="2857000" />
+      <workItem from="1613533690985" duration="599000" />
+      <workItem from="1613655429400" duration="308000" />
+      <workItem from="1613717411071" duration="893000" />
+      <workItem from="1613778083239" duration="1805000" />
+      <workItem from="1613867805662" duration="124000" />
+      <workItem from="1613894182140" duration="127000" />
+      <workItem from="1613894360718" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -399,37 +398,24 @@
       <option name="project" value="LOCAL" />
       <updated>1610423452133</updated>
     </task>
-    <task id="LOCAL-00016" summary="参数值传递与引用传递的区别">
-      <created>1610872591968</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1610872591968</updated>
-    </task>
-    <task id="LOCAL-00017" summary="pluging update">
-      <created>1610890296609</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1610890296609</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -440,20 +426,77 @@
     <MESSAGE value="使用占位符打印日志信息" />
     <MESSAGE value="项目目录结构改变" />
     <MESSAGE value="注释模版修改" />
-    <MESSAGE value="参数值传递与引用传递的区别" />
-    <MESSAGE value="pluging update" />
-    <option name="LAST_COMMIT_MESSAGE" value="pluging update" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释模版修改" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="305" key="GridCell.Tab.0.bottom" timestamp="1613895333254">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333254" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535826" />
+    <state width="1878" height="602" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.23.1280.731@1280.0.1920.1080" timestamp="1613868060569" />
+    <state width="1238" height="542" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073842" />
+    <state width="1238" height="356" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980292" />
+    <state width="1238" height="305" key="GridCell.Tab.0.center" timestamp="1613895333251">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333251" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535814" />
+    <state width="1878" height="602" key="GridCell.Tab.0.center/1280.0.1920.1080/0.23.1280.731@1280.0.1920.1080" timestamp="1613868060564" />
+    <state width="1238" height="542" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073840" />
+    <state width="1238" height="356" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980290" />
+    <state width="1238" height="305" key="GridCell.Tab.0.left" timestamp="1613895333249">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333249" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535810" />
+    <state width="1878" height="602" key="GridCell.Tab.0.left/1280.0.1920.1080/0.23.1280.731@1280.0.1920.1080" timestamp="1613868060561" />
+    <state width="1238" height="542" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073839" />
+    <state width="1238" height="356" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980289" />
+    <state width="1238" height="305" key="GridCell.Tab.0.right" timestamp="1613895333252">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333252" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535821" />
+    <state width="1878" height="602" key="GridCell.Tab.0.right/1280.0.1920.1080/0.23.1280.731@1280.0.1920.1080" timestamp="1613868060567" />
+    <state width="1238" height="542" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073841" />
+    <state width="1238" height="356" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980291" />
+    <state width="1238" height="305" key="GridCell.Tab.1.bottom" timestamp="1613895333261">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333261" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535022" />
+    <state width="1238" height="542" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073846" />
+    <state width="1238" height="356" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980295" />
+    <state width="1238" height="305" key="GridCell.Tab.1.center" timestamp="1613895333257">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333257" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535018" />
+    <state width="1238" height="542" key="GridCell.Tab.1.center/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073844" />
+    <state width="1238" height="356" key="GridCell.Tab.1.center/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980293" />
+    <state width="1238" height="305" key="GridCell.Tab.1.left" timestamp="1613895333256">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333256" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535016" />
+    <state width="1238" height="542" key="GridCell.Tab.1.left/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073843" />
+    <state width="1238" height="356" key="GridCell.Tab.1.left/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980293" />
+    <state width="1238" height="305" key="GridCell.Tab.1.right" timestamp="1613895333259">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="305" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613895333259" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1613780535020" />
+    <state width="1238" height="542" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.731@1280.23.1920.1057" timestamp="1613868073845" />
+    <state width="1238" height="356" key="GridCell.Tab.1.right/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1613796980294" />
+    <state x="179" y="0" key="SettingsEditor" timestamp="1613894310896">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613894310896" />
+    <state x="179" y="23" key="SettingsEditor/1280.23.1920.1057/0.23.1280.731@0.23.1280.731" timestamp="1613778189064" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="ZooKeeperConfig">
-    <option name="host" value="" />
-    <option name="port" value="2181" />
-    <option name="charset" value="UTF-8" />
-    <option name="whitePaths" value="" />
-    <option name="enabled" value="true" />
-    <option name="tooltip" value="true" />
   </component>
 </project>

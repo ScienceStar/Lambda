@@ -185,4 +185,20 @@ public class KnowledgeTest {
         isStop=true;
         System.out.println("Thread is stoped!");
     }
+
+    @Test
+    public void testFloat(){
+        System.out.println(Math.round(11.5)+"   "+Math.round(-11.5));
+    }
+
+    @Test
+    public void testAssert(){
+        int age = -21;
+        this.testAssert(age);
+    }
+
+    public void testAssert(int arg){
+        assert arg>0;
+        System.out.println("continue: Your age is:"+arg);
+    }
 }
