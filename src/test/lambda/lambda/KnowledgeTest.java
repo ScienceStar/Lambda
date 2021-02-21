@@ -198,7 +198,15 @@ public class KnowledgeTest {
     }
 
     public void testAssert(int arg){
-        assert arg>0;
+        assert arg>0:"The age is ilegale";
         System.out.println("continue: Your age is:"+arg);
+    }
+
+    @Test
+    public void testBoolean(){
+        int a=6,b=4;
+
+        String str = a>5 || b<5?"true":"false";
+        System.out.println(str);
     }
 }
