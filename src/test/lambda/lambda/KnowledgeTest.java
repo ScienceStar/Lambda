@@ -172,6 +172,15 @@ public class KnowledgeTest {
     private static int i;
     private volatile boolean isStop = false;
 
+    /**
+     * @MethodName: testThread
+     * @Description: TODO 多线程测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/21 10:05 pm
+     */
     @Test
     public void testThread() throws InterruptedException {
         Thread thread = new Thread(() -> {
@@ -187,17 +196,44 @@ public class KnowledgeTest {
         System.out.println("Thread is stoped!");
     }
 
+    /**
+     * @MethodName: testFloat
+     * @Description: TODO  浮点数据测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/25 1:49 pm
+     */
     @Test
     public void testFloat() {
         System.out.println(Math.round(11.5) + "   " + Math.round(-11.5));
     }
 
+    /**
+     * @MethodName: testAssert
+     * @Description: TODO 断言测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/25 1:49 pm
+     */
     @Test
     public void testAssert() {
         int age = -21;
         this.testAssert(age);
     }
 
+    /**
+     * @MethodName: testAssert
+     * @Description: TODO 断言测试
+     * @Param [arg]
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/21 10:33 pm
+     */
     public void testAssert(int arg) {
         assert arg > 0 : "The age is ilegale";
         System.out.println("continue: Your age is:" + arg);
@@ -211,6 +247,15 @@ public class KnowledgeTest {
         System.out.println(str);
     }
 
+    /**
+     * @MethodName: testLable
+     * @Description: TODO label标签测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/21 10:06 pm
+     */
     @Test
     public void testLable() {
         first:
@@ -250,6 +295,15 @@ public class KnowledgeTest {
         }
     }
 
+    /**
+     * @MethodName: testGoTo
+     * @Description: TODO java跳转测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/21 10:06 pm
+     */
     @Test
     public void testGoTo(){
         //打印101~150之间的所有质数

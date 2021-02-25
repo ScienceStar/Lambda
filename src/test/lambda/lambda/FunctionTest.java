@@ -2,9 +2,9 @@ package lambda.lambda;
 
 import bean.Car;
 import bean.Dog;
-import io.vertx.core.logging.Logger;
-import io.vertx.core.logging.LoggerFactory;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import service.*;
 
 import java.io.PrintStream;
@@ -183,14 +183,23 @@ public class FunctionTest {
         cars.forEach(Car::repair2);
     }
 
+    /**
+     * @MethodName: testCal
+     * @Description: TODO Log占位符测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/25 4:14 pm
+     */
     @Test
     public void testCal(){
         ICalResult calResult = (x1,x2,x3,x4) ->{
             return x1+x2+x3+x4+3;
         };
 
-        logger.info("%s{}\n","The result is:",calResult.getResult(3,8,2,9));
-        System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
+        logger.info("{}{}\n","The result is:",calResult.getResult(3,8,2,9));
+        //System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
     }
 
     @Test
