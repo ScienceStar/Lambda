@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firestorm.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firestorm.log" beforeDir="false" afterPath="$PROJECT_DIR$/firestorm.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
@@ -113,6 +112,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -227,10 +227,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FunctionTest.testCal" />
-        <item itemvalue="JUnit.FunctionTest.testFunction11" />
         <item itemvalue="JUnit.KnowledgeTest.testFloat" />
         <item itemvalue="JUnit.KnowledgeTest.testAssert" />
         <item itemvalue="JUnit.InstanceInit.serializationInstance" />
+        <item itemvalue="JUnit.FunctionTest.testFunction11" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +298,7 @@
       <workItem from="1613916500292" duration="2118000" />
       <workItem from="1613979521885" duration="888000" />
       <workItem from="1614035795338" duration="676000" />
-      <workItem from="1614231828785" duration="3744000" />
+      <workItem from="1614231828785" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -440,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613908553151</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="log占位符">
+      <created>1614240921048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614240921048</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,45 +478,58 @@
     <MESSAGE value="断言的使用" />
     <MESSAGE value="三元表达式" />
     <MESSAGE value="label标签使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="label标签使用" />
+    <MESSAGE value="log占位符" />
+    <option name="LAST_COMMIT_MESSAGE" value="log占位符" />
   </component>
   <component name="WindowStateProjectService">
     <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1613916316892">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613916316892" />
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1614240887307">
+    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1614240920183">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887307" />
-    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1614240887304">
+    <state x="124" y="0" key="CommitChangelistDialog2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240920183" />
+    <state x="100" y="99" width="1080" height="600" key="DiffContextDialog" timestamp="1614242337662">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887304" />
-    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1614240887303">
+    <state x="100" y="99" width="1080" height="600" key="DiffContextDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242337662" />
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1614242378628">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887303" />
-    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1614240887305">
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378628" />
+    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1614242378626">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887305" />
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1614240887313">
+    <state width="1238" height="269" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378626" />
+    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1614242378625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887313" />
-    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1614240887310">
+    <state width="1238" height="269" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378625" />
+    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1614242378627">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887310" />
-    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1614240887308">
+    <state width="1238" height="269" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378627" />
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1614242378634">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887308" />
-    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1614240887311">
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378634" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1614242378630">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887311" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378630" />
+    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1614242378629">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378629" />
+    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1614242378633">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378633" />
+    <state x="344" y="116" key="MultipleFileMergeDialog" timestamp="1614241180736">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="344" y="116" key="MultipleFileMergeDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241180736" />
     <state x="192" y="22" key="NewModule_or_Project.wizard" timestamp="1614037388871">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -520,6 +540,14 @@
     </state>
     <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614232503279" />
     <state x="179" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614239962171" />
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2" timestamp="1614241208031">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241208031" />
+    <state x="0" y="40" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614241175226">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="40" key="git4idea.branch.GitSmartOperationDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241175226" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

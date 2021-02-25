@@ -4,3 +4,9 @@ INFO main lambda.lambda.FunctionTest - The result is:25
 
 INFO main lambda.lambda.FunctionTest - {%s}{%d}
 
+INFO main lambda.lambda.FunctionTest - The result is:25
+
+ERROR main lambda.lambda.FunctionTest - The result is:25
+
+INFO main lambda.lambda.FunctionTest - The result is:25
+
