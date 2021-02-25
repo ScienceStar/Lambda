@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/lambda/lambda/InstanceInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firestorm.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -32,7 +27,7 @@
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lambda.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lambda.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
@@ -83,12 +85,12 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.1/conf/settings.xml" />
+        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -121,11 +123,11 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/lambda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -141,41 +143,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InstanceInit.serializationInstance">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="testSwap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstanceInit.constructorInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FunctionTest.testCal">
+    <configuration name="FunctionTest.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -184,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="constructorInstance" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
+      <option name="METHOD_NAME" value="testCal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInit.pathCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.testFunction11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
@@ -200,8 +169,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="pathCreate" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
+      <option name="METHOD_NAME" value="testFunction11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,17 +192,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnowledgeTest.testAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnowledgeTest.testFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testFloat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.testCal" />
+        <item itemvalue="JUnit.FunctionTest.testFunction11" />
+        <item itemvalue="JUnit.KnowledgeTest.testFloat" />
+        <item itemvalue="JUnit.KnowledgeTest.testAssert" />
         <item itemvalue="JUnit.InstanceInit.serializationInstance" />
-        <item itemvalue="JUnit.InstanceInit.constructorInstance" />
-        <item itemvalue="JUnit.InstanceInit.pathCreate" />
-        <item itemvalue="JUnit.FunctionTest.test3" />
-        <item itemvalue="JUnit.FunctionTest.testSwap" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -287,12 +288,17 @@
       <workItem from="1610765657616" duration="840000" />
       <workItem from="1610861460012" duration="2212000" />
       <workItem from="1610869589001" duration="678000" />
-      <workItem from="1610889357807" duration="498000" />
-      <workItem from="1610889902478" duration="1380000" />
-      <workItem from="1610937856417" duration="619000" />
-      <workItem from="1610951944407" duration="23000" />
-      <workItem from="1611379930844" duration="232000" />
-      <workItem from="1613441902496" duration="2857000" />
+      <workItem from="1613533690985" duration="599000" />
+      <workItem from="1613655429400" duration="308000" />
+      <workItem from="1613717411071" duration="893000" />
+      <workItem from="1613778083239" duration="1805000" />
+      <workItem from="1613867805662" duration="124000" />
+      <workItem from="1613894182140" duration="127000" />
+      <workItem from="1613894360718" duration="8299000" />
+      <workItem from="1613916500292" duration="2118000" />
+      <workItem from="1613979521885" duration="888000" />
+      <workItem from="1614035795338" duration="676000" />
+      <workItem from="1614231828785" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -399,37 +405,59 @@
       <option name="project" value="LOCAL" />
       <updated>1610423452133</updated>
     </task>
-    <task id="LOCAL-00016" summary="参数值传递与引用传递的区别">
-      <created>1610872591968</created>
+    <task id="LOCAL-00016" summary="断言的使用">
+      <created>1613895368284</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1610872591968</updated>
+      <updated>1613895368284</updated>
     </task>
-    <task id="LOCAL-00017" summary="pluging update">
-      <created>1610890296609</created>
+    <task id="LOCAL-00017" summary="断言的使用">
+      <created>1613895456497</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1610890296609</updated>
+      <updated>1613895456497</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="三元表达式">
+      <created>1613896431891</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613896431891</updated>
+    </task>
+    <task id="LOCAL-00019" summary="label标签使用">
+      <created>1613901367078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613901367078</updated>
+    </task>
+    <task id="LOCAL-00020" summary="label标签使用">
+      <created>1613908553151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613908553151</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -440,20 +468,68 @@
     <MESSAGE value="使用占位符打印日志信息" />
     <MESSAGE value="项目目录结构改变" />
     <MESSAGE value="注释模版修改" />
-    <MESSAGE value="参数值传递与引用传递的区别" />
-    <MESSAGE value="pluging update" />
-    <option name="LAST_COMMIT_MESSAGE" value="pluging update" />
+    <MESSAGE value="断言的使用" />
+    <MESSAGE value="三元表达式" />
+    <MESSAGE value="label标签使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="label标签使用" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1613916316892">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613916316892" />
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1614240887307">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887307" />
+    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1614240887304">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887304" />
+    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1614240887303">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887303" />
+    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1614240887305">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887305" />
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1614240887313">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887313" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1614240887310">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887310" />
+    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1614240887308">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887308" />
+    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1614240887311">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="269" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240887311" />
+    <state x="192" y="22" key="NewModule_or_Project.wizard" timestamp="1614037388871">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="192" y="22" key="NewModule_or_Project.wizard/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613979819819" />
+    <state x="192" y="22" key="NewModule_or_Project.wizard/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614037388871" />
+    <state x="179" y="0" key="SettingsEditor" timestamp="1614239962171">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614232503279" />
+    <state x="179" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614239962171" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="i/2" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="ZooKeeperConfig">
-    <option name="host" value="" />
-    <option name="port" value="2181" />
-    <option name="charset" value="UTF-8" />
-    <option name="whitePaths" value="" />
-    <option name="enabled" value="true" />
-    <option name="tooltip" value="true" />
   </component>
 </project>

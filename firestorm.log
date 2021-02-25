@@ -1,0 +1,6 @@
+INFO main lambda.lambda.FunctionTest - %sThe result is:
+
+INFO main lambda.lambda.FunctionTest - The result is:25
+
+INFO main lambda.lambda.FunctionTest - {%s}{%d}
+
