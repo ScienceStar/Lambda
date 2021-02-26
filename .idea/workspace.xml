@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/lambda/lambda/StreamProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestorm.log" beforeDir="false" afterPath="$PROJECT_DIR$/firestorm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -32,6 +27,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -127,7 +125,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -143,7 +141,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.testCal">
+  <component name="RunManager" selected="JUnit.StreamProgram.testFinalStream">
     <configuration name="FunctionTest.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
@@ -155,38 +153,6 @@
       <option name="PACKAGE_NAME" value="lambda.lambda" />
       <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
       <option name="METHOD_NAME" value="testCal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionTest.testFunction11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
-      <option name="METHOD_NAME" value="testFunction11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstanceInit.serializationInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.InstanceInit" />
-      <option name="METHOD_NAME" value="serializationInstance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,13 +190,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamProgram.testFinalStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.StreamProgram" />
+      <option name="METHOD_NAME" value="testFinalStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamProgram.testStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda.StreamProgram" />
+      <option name="METHOD_NAME" value="testStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamProgram.testFinalStream" />
+        <item itemvalue="JUnit.StreamProgram.testStream" />
         <item itemvalue="JUnit.FunctionTest.testCal" />
         <item itemvalue="JUnit.KnowledgeTest.testFloat" />
         <item itemvalue="JUnit.KnowledgeTest.testAssert" />
-        <item itemvalue="JUnit.InstanceInit.serializationInstance" />
-        <item itemvalue="JUnit.FunctionTest.testFunction11" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +296,8 @@
       <workItem from="1613916500292" duration="2118000" />
       <workItem from="1613979521885" duration="888000" />
       <workItem from="1614035795338" duration="676000" />
-      <workItem from="1614231828785" duration="5133000" />
+      <workItem from="1614231828785" duration="5369000" />
+      <workItem from="1614300212986" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -447,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614240921048</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="log占位符">
+      <created>1614242416614</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614242416614</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,46 +492,54 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613916316892" />
-    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1614240920183">
+    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1614242415992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="124" y="0" key="CommitChangelistDialog2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614240920183" />
+    <state x="124" y="0" key="CommitChangelistDialog2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242415992" />
     <state x="100" y="99" width="1080" height="600" key="DiffContextDialog" timestamp="1614242337662">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="99" width="1080" height="600" key="DiffContextDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242337662" />
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1614242378628">
+    <state width="1236" height="202" key="GridCell.Tab.0.bottom" timestamp="1614331043185">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378628" />
-    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1614242378626">
+    <state width="1236" height="202" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043185" />
+    <state width="1236" height="56" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968789" />
+    <state width="1236" height="202" key="GridCell.Tab.0.center" timestamp="1614331043183">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378626" />
-    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1614242378625">
+    <state width="1236" height="202" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043183" />
+    <state width="1236" height="56" key="GridCell.Tab.0.center/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968779" />
+    <state width="1236" height="202" key="GridCell.Tab.0.left" timestamp="1614331043181">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378625" />
-    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1614242378627">
+    <state width="1236" height="202" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043181" />
+    <state width="1236" height="56" key="GridCell.Tab.0.left/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968775" />
+    <state width="1236" height="202" key="GridCell.Tab.0.right" timestamp="1614331043184">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378627" />
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1614242378634">
+    <state width="1236" height="202" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043184" />
+    <state width="1236" height="56" key="GridCell.Tab.0.right/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968781" />
+    <state width="1236" height="202" key="GridCell.Tab.1.bottom" timestamp="1614331043191">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378634" />
-    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1614242378630">
+    <state width="1236" height="202" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043191" />
+    <state width="1236" height="56" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968488" />
+    <state width="1236" height="202" key="GridCell.Tab.1.center" timestamp="1614331043188">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378630" />
-    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1614242378629">
+    <state width="1236" height="202" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043188" />
+    <state width="1236" height="56" key="GridCell.Tab.1.center/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968481" />
+    <state width="1236" height="202" key="GridCell.Tab.1.left" timestamp="1614331043187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378629" />
-    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1614242378633">
+    <state width="1236" height="202" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043187" />
+    <state width="1236" height="56" key="GridCell.Tab.1.left/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968478" />
+    <state width="1236" height="202" key="GridCell.Tab.1.right" timestamp="1614331043189">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242378633" />
+    <state width="1236" height="202" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043189" />
+    <state width="1236" height="56" key="GridCell.Tab.1.right/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968483" />
     <state x="344" y="116" key="MultipleFileMergeDialog" timestamp="1614241180736">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -535,15 +549,15 @@
     </state>
     <state x="192" y="22" key="NewModule_or_Project.wizard/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613979819819" />
     <state x="192" y="22" key="NewModule_or_Project.wizard/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614037388871" />
-    <state x="179" y="0" key="SettingsEditor" timestamp="1614239962171">
+    <state x="179" y="0" key="SettingsEditor" timestamp="1614330677992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614232503279" />
-    <state x="179" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614239962171" />
-    <state x="240" y="121" key="Vcs.Push.Dialog.v2" timestamp="1614241208031">
+    <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614330161891" />
+    <state x="179" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330677992" />
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2" timestamp="1614242419800">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="121" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241208031" />
+    <state x="240" y="121" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242419800" />
     <state x="0" y="40" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614241175226">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
