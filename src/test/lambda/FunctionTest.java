@@ -1,4 +1,4 @@
-package lambda.lambda;
+package test.lambda;
 
 import bean.Car;
 import bean.Dog;
@@ -168,11 +168,11 @@ public class FunctionTest {
     /**
      * @MethodName: testFunction11
      * @Description: TODO lambda测试
-     * @Param [] 
-     * @Return void 
-     * @Throws 
+     * @Param []
+     * @Return void
+     * @Throws
      * @Author mac
-     * @Date 2021/2/25 4:34 pm 
+     * @Date 2021/2/25 4:34 pm
      */
     @Test
     public void testFunction11(){

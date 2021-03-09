@@ -1,4 +1,4 @@
-package lambda.lambda;
+package test.lambda;
 
 import bean.Dog;
 import org.junit.Test;

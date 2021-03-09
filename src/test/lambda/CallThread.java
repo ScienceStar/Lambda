@@ -1,4 +1,4 @@
-package lambda.lambda;
+package test.lambda;
 
 import org.junit.Test;
 import thread.MyCallable;

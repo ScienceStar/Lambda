@@ -1,4 +1,4 @@
-package lambda.lambda;
+package test.lambda;
 
 /**
  * @ClassName KnowledgeTest2

@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/lambda/lambda/StreamProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdaTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/InstanceInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/StreamProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/SyncThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -82,14 +97,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.2/conf/settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
@@ -110,7 +120,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -125,7 +134,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -141,7 +150,18 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamProgram.testFinalStream">
+  <component name="RunManager" selected="JUnit.FunctionTest.testLambda">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionTest.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
@@ -158,17 +178,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnowledgeTest.testAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="PATTERN" value="test.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
-      <option name="METHOD_NAME" value="testAssert" />
+      <option name="PACKAGE_NAME" value="test.lambda" />
+      <option name="MAIN_CLASS_NAME" value="test.lambda.FunctionTest" />
+      <option name="METHOD_NAME" value="testLambda" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,15 +244,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.testLambda" />
         <item itemvalue="JUnit.StreamProgram.testFinalStream" />
         <item itemvalue="JUnit.StreamProgram.testStream" />
         <item itemvalue="JUnit.FunctionTest.testCal" />
         <item itemvalue="JUnit.KnowledgeTest.testFloat" />
-        <item itemvalue="JUnit.KnowledgeTest.testAssert" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -298,6 +318,7 @@
       <workItem from="1614035795338" duration="676000" />
       <workItem from="1614231828785" duration="5369000" />
       <workItem from="1614300212986" duration="2068000" />
+      <workItem from="1615254898771" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -457,20 +478,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -486,82 +506,6 @@
     <MESSAGE value="label标签使用" />
     <MESSAGE value="log占位符" />
     <option name="LAST_COMMIT_MESSAGE" value="log占位符" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1613916316892">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="377" y="151" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613916316892" />
-    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1614242415992">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="124" y="0" key="CommitChangelistDialog2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242415992" />
-    <state x="100" y="99" width="1080" height="600" key="DiffContextDialog" timestamp="1614242337662">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="100" y="99" width="1080" height="600" key="DiffContextDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242337662" />
-    <state width="1236" height="202" key="GridCell.Tab.0.bottom" timestamp="1614331043185">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043185" />
-    <state width="1236" height="56" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968789" />
-    <state width="1236" height="202" key="GridCell.Tab.0.center" timestamp="1614331043183">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043183" />
-    <state width="1236" height="56" key="GridCell.Tab.0.center/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968779" />
-    <state width="1236" height="202" key="GridCell.Tab.0.left" timestamp="1614331043181">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043181" />
-    <state width="1236" height="56" key="GridCell.Tab.0.left/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968775" />
-    <state width="1236" height="202" key="GridCell.Tab.0.right" timestamp="1614331043184">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043184" />
-    <state width="1236" height="56" key="GridCell.Tab.0.right/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968781" />
-    <state width="1236" height="202" key="GridCell.Tab.1.bottom" timestamp="1614331043191">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043191" />
-    <state width="1236" height="56" key="GridCell.Tab.1.bottom/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968488" />
-    <state width="1236" height="202" key="GridCell.Tab.1.center" timestamp="1614331043188">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043188" />
-    <state width="1236" height="56" key="GridCell.Tab.1.center/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968481" />
-    <state width="1236" height="202" key="GridCell.Tab.1.left" timestamp="1614331043187">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043187" />
-    <state width="1236" height="56" key="GridCell.Tab.1.left/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968478" />
-    <state width="1236" height="202" key="GridCell.Tab.1.right" timestamp="1614331043189">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1236" height="202" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614331043189" />
-    <state width="1236" height="56" key="GridCell.Tab.1.right/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330968483" />
-    <state x="344" y="116" key="MultipleFileMergeDialog" timestamp="1614241180736">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="344" y="116" key="MultipleFileMergeDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241180736" />
-    <state x="192" y="22" key="NewModule_or_Project.wizard" timestamp="1614037388871">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="192" y="22" key="NewModule_or_Project.wizard/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1613979819819" />
-    <state x="192" y="22" key="NewModule_or_Project.wizard/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614037388871" />
-    <state x="179" y="0" key="SettingsEditor" timestamp="1614330677992">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="179" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614330161891" />
-    <state x="179" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1614330677992" />
-    <state x="240" y="121" key="Vcs.Push.Dialog.v2" timestamp="1614242419800">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="121" key="Vcs.Push.Dialog.v2/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614242419800" />
-    <state x="0" y="40" key="git4idea.branch.GitSmartOperationDialog" timestamp="1614241175226">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="0" y="40" key="git4idea.branch.GitSmartOperationDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1614241175226" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
