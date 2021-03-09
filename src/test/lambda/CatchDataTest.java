@@ -1,4 +1,4 @@
-package test.lambda;
+package lambda;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;

@@ -1,4 +1,4 @@
-package test.lambda;
+package lambda;
 
 import bank.Bank2;
 import bank.RunableFunction;

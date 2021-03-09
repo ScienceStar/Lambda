@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambdaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/InstanceInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/StreamProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/SyncThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/SyncThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -130,11 +123,12 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/lambda" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -150,29 +144,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.testLambda">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamProgram.testStream (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CallThread.callThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="PATTERN" value="test.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.FunctionTest" />
-      <option name="METHOD_NAME" value="testCal" />
+      <option name="PACKAGE_NAME" value="test.lambda" />
+      <option name="MAIN_CLASS_NAME" value="test.lambda.CallThread" />
+      <option name="METHOD_NAME" value="callThreadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,22 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnowledgeTest.testFloat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.KnowledgeTest" />
-      <option name="METHOD_NAME" value="testFloat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamProgram.testFinalStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
@@ -221,6 +201,22 @@
       <option name="PACKAGE_NAME" value="lambda.lambda" />
       <option name="MAIN_CLASS_NAME" value="lambda.lambda.StreamProgram" />
       <option name="METHOD_NAME" value="testFinalStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamProgram.testStream (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.StreamProgram" />
+      <option name="METHOD_NAME" value="testStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamProgram.testStream (1)" />
+        <item itemvalue="JUnit.CallThread.callThreadTest" />
         <item itemvalue="JUnit.FunctionTest.testLambda" />
         <item itemvalue="JUnit.StreamProgram.testFinalStream" />
         <item itemvalue="JUnit.StreamProgram.testStream" />
-        <item itemvalue="JUnit.FunctionTest.testCal" />
-        <item itemvalue="JUnit.KnowledgeTest.testFloat" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +314,10 @@
       <workItem from="1614035795338" duration="676000" />
       <workItem from="1614231828785" duration="5369000" />
       <workItem from="1614300212986" duration="2068000" />
-      <workItem from="1615254898771" duration="703000" />
+      <workItem from="1615254898771" duration="2545000" />
+      <workItem from="1615257692034" duration="1007000" />
+      <workItem from="1615258914331" duration="545000" />
+      <workItem from="1615285159499" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614242416614</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lambda update">
+      <created>1615255651906</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1615255651906</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +502,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="structure chnge" />
     <MESSAGE value="java 基础知识测试 - 浅克隆、深克隆" />
-    <MESSAGE value="lambda update" />
     <MESSAGE value="java 基础知识测试" />
     <MESSAGE value="使用占位符打印日志信息" />
     <MESSAGE value="项目目录结构改变" />
@@ -505,9 +510,22 @@
     <MESSAGE value="三元表达式" />
     <MESSAGE value="label标签使用" />
     <MESSAGE value="log占位符" />
-    <option name="LAST_COMMIT_MESSAGE" value="log占位符" />
+    <MESSAGE value="lambda update" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda update" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/lambda/StreamProgram.java</url>
+          <line>29</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="i/2" language="JAVA" />

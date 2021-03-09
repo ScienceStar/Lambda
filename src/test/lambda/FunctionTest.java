@@ -1,4 +1,4 @@
-package test.lambda;
+package lambda;
 
 import bean.Car;
 import bean.Dog;
