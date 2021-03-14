@@ -16,6 +16,10 @@ public class Father {
         System.out.println(userName+"is sayIng.......");
     }
 
+    public void sayVoice(){
+        System.out.println("父亲在说话............");
+    }
+
     public String getUserName() {
         return userName;
     }

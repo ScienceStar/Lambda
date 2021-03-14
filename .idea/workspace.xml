@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/child/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/father/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambdaTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/child/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/child/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/father/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father/Father.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
@@ -63,13 +59,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fix_hotbug" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

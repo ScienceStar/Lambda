@@ -191,7 +191,8 @@ public class KnowledgeTest {
     @Test
     public void testPolymorphism(){
         Father father = new Child();
-        father.func1();
+        //father.func1();
+        father.sayVoice();
         //father.say("mike",21);
     }
 }
