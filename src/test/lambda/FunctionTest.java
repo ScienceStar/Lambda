@@ -1,4 +1,4 @@
-package lambda.lambda;
+package lambda;
 
 import bean.Car;
 import bean.Dog;
@@ -165,6 +165,15 @@ public class FunctionTest {
         ps.println(dog1.getWeight());
     }
 
+    /**
+     * @MethodName: testFunction11
+     * @Description: TODO lambda测试
+     * @Param []
+     * @Return void
+     * @Throws
+     * @Author mac
+     * @Date 2021/2/25 4:34 pm
+     */
     @Test
     public void testFunction11(){
         final Car car = Car.create(Car::new);
@@ -199,7 +208,7 @@ public class FunctionTest {
         };
 
         logger.info("{}{}\n","The result is:",calResult.getResult(3,8,2,9));
-        //System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
+        System.out.printf("%s%d!\n","The result is:",calResult.getResult(5,8,2,4));
     }
 
     @Test

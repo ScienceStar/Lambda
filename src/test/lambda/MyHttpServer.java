@@ -1,4 +1,4 @@
-package lambda.lambda;
+package lambda;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
