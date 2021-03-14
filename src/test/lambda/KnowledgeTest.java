@@ -1,6 +1,8 @@
 package lambda;
 
 import bean.Car;
+import child.Child;
+import father.Father;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -184,5 +186,12 @@ public class KnowledgeTest {
         TimeUnit.SECONDS.sleep(2);
         isStop=true;
         System.out.println("Thread is stoped!");
+    }
+
+    @Test
+    public void testPolymorphism(){
+        Father father = new Child();
+        father.func1();
+        //father.say("mike",21);
     }
 }

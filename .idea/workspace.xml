@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/child/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/father/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Algorithm_Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/CallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/CatchDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/InstanceInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambdaTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/MyCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/MyHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/StreamProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/Test2.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -90,7 +89,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -121,6 +119,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/lambda" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -128,7 +127,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -144,63 +143,74 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamProgram.testStream (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KnowledgeTest.testPolymorphism">
+    <configuration name="SyncThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.SyncThreadTest" />
+      <module name="lambdaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallThread.callThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
+    <configuration name="CallThread.callThreadTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambdaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.lambda.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.lambda" />
-      <option name="MAIN_CLASS_NAME" value="test.lambda.CallThread" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.CallThread" />
       <option name="METHOD_NAME" value="callThreadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
+    <configuration name="KnowledgeTest.testPlyo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambdaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.lambda.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.lambda" />
-      <option name="MAIN_CLASS_NAME" value="test.lambda.FunctionTest" />
-      <option name="METHOD_NAME" value="testLambda" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testPlyo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamProgram.testFinalStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
+    <configuration name="KnowledgeTest.testPolymorphism" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambdaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.StreamProgram" />
-      <option name="METHOD_NAME" value="testFinalStream" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testPolymorphism" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,29 +232,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamProgram.testStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda.lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda.StreamProgram" />
-      <option name="METHOD_NAME" value="testStream" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnowledgeTest.testPolymorphism" />
+        <item itemvalue="JUnit.KnowledgeTest.testPlyo" />
+        <item itemvalue="Application.SyncThreadTest" />
+        <item itemvalue="JUnit.CallThread.callThreadTest (1)" />
         <item itemvalue="JUnit.StreamProgram.testStream (1)" />
-        <item itemvalue="JUnit.CallThread.callThreadTest" />
-        <item itemvalue="JUnit.FunctionTest.testLambda" />
-        <item itemvalue="JUnit.StreamProgram.testFinalStream" />
-        <item itemvalue="JUnit.StreamProgram.testStream" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +311,17 @@
       <workItem from="1615254898771" duration="2545000" />
       <workItem from="1615257692034" duration="1007000" />
       <workItem from="1615258914331" duration="545000" />
-      <workItem from="1615285159499" duration="746000" />
+      <workItem from="1615285159499" duration="1281000" />
+      <workItem from="1615360919787" duration="256000" />
+      <workItem from="1615361246831" duration="378000" />
+      <workItem from="1615386273637" duration="1078000" />
+      <workItem from="1615427401366" duration="539000" />
+      <workItem from="1615428072670" duration="3406000" />
+      <workItem from="1615433718923" duration="634000" />
+      <workItem from="1615434491778" duration="711000" />
+      <workItem from="1615435281667" duration="3782000" />
+      <workItem from="1615526195770" duration="477000" />
+      <workItem from="1615730447958" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
@@ -480,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615255651906</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="path update">
+      <created>1615286243871</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615286243871</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +522,8 @@
     <MESSAGE value="label标签使用" />
     <MESSAGE value="log占位符" />
     <MESSAGE value="lambda update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda update" />
+    <MESSAGE value="path update" />
+    <option name="LAST_COMMIT_MESSAGE" value="path update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
