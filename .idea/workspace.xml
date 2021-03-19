@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8080b5cc-5942-435c-8215-b445beed325d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/child/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/child/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/father/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/father/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/lambda/KnowledgeTest.java" afterDir="false" />
     </list>
     <list id="e9faf607-294c-4de9-ad3d-42a72048aef0" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
@@ -66,7 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fix_hotbug" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +84,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.2/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -120,11 +119,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -140,31 +139,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KnowledgeTest.testPolymorphism">
-    <configuration name="SyncThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.SyncThreadTest" />
-      <module name="lambdaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.KnowledgeTest.testThread">
     <configuration name="CallThread.callThreadTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambdaTest" />
       <extension name="coverage">
@@ -213,6 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnowledgeTest.testThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambdaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.KnowledgeTest" />
+      <option name="METHOD_NAME" value="testThread" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamProgram.testStream (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lambda" />
       <extension name="coverage">
@@ -231,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnowledgeTest.testThread" />
+        <item itemvalue="JUnit.StreamProgram.testStream (1)" />
         <item itemvalue="JUnit.KnowledgeTest.testPolymorphism" />
         <item itemvalue="JUnit.KnowledgeTest.testPlyo" />
-        <item itemvalue="Application.SyncThreadTest" />
         <item itemvalue="JUnit.CallThread.callThreadTest (1)" />
-        <item itemvalue="JUnit.StreamProgram.testStream (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +310,9 @@
       <workItem from="1615435281667" duration="3782000" />
       <workItem from="1615526195770" duration="477000" />
       <workItem from="1615730447958" duration="1890000" />
+      <workItem from="1615773993792" duration="779000" />
+      <workItem from="1616038682028" duration="1554000" />
+      <workItem from="1616112032313" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="structure chnge">
       <created>1578980952074</created>
